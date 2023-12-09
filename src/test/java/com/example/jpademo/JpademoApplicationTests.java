@@ -101,7 +101,7 @@ class JpademoApplicationTests {
     public void test01() {
 
         //Optional<User> user = userDao.findById(70l);
-//测试dev
+//测试dev test merge dev to main
         //redisTemplate.opsForValue().set(70,user.get());
         System.out.println(redisTemplate.opsForValue().get(70));
         //  User user = helloCon.saveUser(new User("zs", 80));
